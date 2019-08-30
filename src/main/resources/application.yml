@@ -1,0 +1,8 @@
+server:
+  port: 9099
+hbase:
+  config:
+    hbase.zookeeper.quorum: 192.168.137.134
+    hbase.zookeeper.property.clientPort: 2181
+    fs.defaultFS: hdfs://192.168.137.134:8020
+    fs.trash.interval: 1
